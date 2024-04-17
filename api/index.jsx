@@ -32,7 +32,7 @@ app.use('/uploads', express.static(__dirname + '/uploads'));
 const salt = bcrypt.genSaltSync(10);
 const secret = 'ajfkjsbbkrjg';
 mongoose
-  .connect('mongodb+srv://anirek:anirek2002@anirek.rdjuz5w.mongodb.net/blog')
+  .connect('mongodb+srv://anirek:anire@anirek.rdjuz5w.mongodb.net/blog')
   .then(() => {
     console.log('Connected to db');
   })
